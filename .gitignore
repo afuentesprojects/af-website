@@ -1,0 +1,90 @@
+# ============================================
+# .gitignore for MinimalFolio Personal Website
+# ============================================
+
+# =====================================
+# Operating System Files
+# =====================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# =====================================
+# Development Environment
+# =====================================
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+
+# =====================================
+# Web Development
+# =====================================
+# Node.js (if you add build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# =====================================
+# Build and Deployment
+# =====================================
+# Build outputs
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# =====================================
+# Personal and Sensitive Files
+# =====================================
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Personal notes and drafts
+notes.txt
+todo.txt
+drafts/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# =====================================
+# Image Optimization
+# =====================================
+# Original high-res images (keep optimized versions)
+assets/img/originals/
+assets/img/raw/
+
+# =====================================
+# Temporary Files
+# =====================================
+*.tmp
+*.temp
+.tmp/
+.temp/
