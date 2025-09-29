@@ -73,7 +73,8 @@ drafts/
 *.bak
 *.backup
 *.orig
-
+index-original.html
+main-original.js
 # =====================================
 # Image Optimization
 # =====================================
